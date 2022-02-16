@@ -1,0 +1,376 @@
+* {
+  position:relative;
+}
+
+body{
+  background-color: #CEB6EE;
+}
+.cabell{
+  width: 600px;
+  height:700px;
+  background-color: #312613;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 220px 220px 0 0;
+  top: 100px;
+  z-index: -10;
+}
+.cap{
+  width: 400px;
+  height: 660px;
+  background-color: #FFE4B5;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 300px 300px;
+  z-index: 0;
+
+
+}
+.serrell{
+  width: 600px;
+  height: 200px;
+  background-color: #483C32;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 200px 200px 0 0;
+  right: 100px;
+}
+.celladre{
+  height: 20px;
+  width: 140px;
+  background-color: #312613;
+  transform: rotate(10deg);
+  top: 30px;
+  left: 25px;
+}
+.triangledre{
+  width: 0;
+  height: 0;
+  border-left: 50px solid #FFE4B5;
+  border top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  top: -5px;
+  left: -1px;
+}
+.cellaesq{
+  height: 20px;
+  width: 140px;
+  background-color: #312613;
+  transform: rotate(-10deg);
+  top: 11px;
+  left: 230px;
+}
+.triangleesq{
+  width: 0;
+  height: 0;
+  border-right: 50px solid #FFE4B5;
+  border top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  left: 330px;
+  top: -22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---   Ulldre ---- */
+
+.ulldre{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 70% 0 70% 0;
+  position: relative;
+  margin: 0 auto;
+  right: 100px;
+  transform: rotate(55deg);
+}
+.ulldre .fonsull{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 70% 0 70% 0;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+}
+
+.ulldre .fonsull .irisdre{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #D5B78F 0%, #8A9A5B 70%);
+  margin: 20px 20px;
+  overflow: hidden;
+}
+
+.ulldre .fonsull .irisdre .ninetadre{
+  width:20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px 20px;
+}
+
+.ulldre .parpelladre{
+  width: 100px;
+  height: 100px;
+  background-color: #D2B48C;
+  border-radius: 70% 0 70% 0;
+  margin: 0 auto;
+  position: relative;
+  top: -4px;
+  left: -2px;
+  transform: rotate(0deg);
+  box-shadow: 0 0 2px 2px black;
+  z-index: -1;
+  animation: 4s parpadeig ease-in-out infinite alternate-reverse;
+}
+.ulldre .brillodre{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: -65px;
+  left: 45px;
+}
+
+
+
+/*-----Ull esq---*/
+
+.ullesq{
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFFF;
+  border-radius: 70% 0 70% 0;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+  left: 100px;
+  transform: rotate(35deg);
+}
+
+.ullesq .fonsullesq{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 70% 0 70% 0;
+  margin: 0 auto;
+  position: relative;
+  float: left;
+
+}
+.ullesq .fonsullesq .irisesq{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #D5B78F 0%, #8A9A5B 70%);
+  margin: 20px 20px;
+  overflow: hidden;
+}
+
+.ullesq .fonsullesq .irisesq .ninetaesq{
+  width:20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px 20px;
+}
+
+.ullesq .parpellaesq{
+  width: 100px;
+  height: 100px;
+  background-color: #D2B48C;
+  border-radius: 70% 0 70% 0;
+  margin: 0 auto;
+  position: relative;
+  top: -5px;
+  left: -2px;
+  transform: rotate(0deg);
+  box-shadow: 0 0 2px 2px black;
+  z-index: -1;
+  animation: 4s parpadeig ease-in-out infinite alternate-reverse;
+}
+.ullesq .brilloesq{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: -65px;
+  left: 45px;
+}
+
+
+
+/*----NAS-----*/
+.nas{
+  width: 0;
+  height: 0;
+  border-left: 150px solid #FAD5A5;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(270deg);
+  top: -140px;
+  left: 125px;
+
+}
+.nas::before{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: -5px -5px 0 #C0C0C0;
+  content: '';
+  display: block;
+  position: relative;
+  right: 150px;
+  top: -50px;
+}
+.nas::after{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: -5px 5px 0 #C0C0C0;
+  content:'';
+  display: block;
+  position: relative;
+  right: 150px;
+  top: -8px;
+  transform: rotate(-10deg);
+}
+
+
+
+
+/*-----BOCA-----*/
+.boca .boca1{
+  width: 70px;
+  height: 70px;
+  background-color: #DB7E7E;
+  border-radius: 50px 0 50px 50px;
+  position: relative;
+  top: -50px;
+  left: 180px;
+  transform: rotate(35deg);
+  box-shadow: 2px -1px 2px #9D6161;
+}
+.boca .boca2{
+  width: 70px;
+  height: 70px;
+  background-color: #DB7E7E;
+  border-radius: 50px 50px 50px 0;
+  position: relative;
+  top: -120px;
+  left: 150px;
+  transform: rotate(55deg);
+  box-shadow: -1px 2px 2px #9D6161;
+}
+.boca .cigarro .taronja{
+  width: 50px;
+  height: 20px;
+  background: radial-gradient(farthest-corner at 40px 40px, white 0%, orange  100%);
+  position: relative;
+  top: -170px;
+  left: 220px;
+  z-index: 2;
+}
+
+.boca .cigarro .blanca{
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  border-color: grey;
+  position: relative;
+  top: -190px;
+  left: 270px;
+  border-radius: 0 5px 5px 0;
+}
+
+.boca .cigarro .vermell{
+  width: 10px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  background: radial-gradient(circle, yellow 0%, red 70%);
+  position: relative;
+  top: -210px;
+  left: 360px;
+}
+.linia{
+  width: 80px;
+  height: 20px;
+  border-radius: 50%;
+  background: #B46974;
+  position: relative;
+  top: -230px;
+  left: 160px;
+}
+
+.fum1{
+  width: 20px;
+  height: 20px;
+  background-color: #E1E1E1;
+  border-radius: 50%;
+  top: -280px;
+  left: 380px;
+  animation: 4s moviment ease-in-out infinite alternate-reverse;
+}
+.fum2{
+  width: 25px;
+  height: 25px;
+  background-color: #E1E1E1;
+  border-radius: 50%;
+  top: -310px;
+  left: 380px;
+  animation: 4s moviment ease-in-out infinite alternate-reverse;
+}
+.fum3{
+  width: 30px;
+  height: 30px;
+  background-color: #E1E1E1;
+  border-radius: 50%;
+  top: -350px;
+  left: 380px;
+  animation: 4s moviment ease-in-out infinite alternate-reverse;
+}
+.fum4{
+  width: 35px;
+  height: 35px;
+  background-color: #E1E1E1;
+  border-radius: 50%;
+  top: -430px;
+  left: 390px;
+  animation: 4s moviment ease-in-out infinite alternate-reverse;
+}
+.fum5{
+  width: 40px;
+  height: 40px;
+  background-color: #E1E1E1;
+  border-radius: 50%;
+  top: -485px;
+  left: 390px;
+  animation: 4s moviment ease-in-out infinite alternate-reverse;
+}
+
+@keyframes moviment{
+  0%{
+    opacity: 100%;
+  }
+  50%{
+    opacity: 30%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+¡
+}

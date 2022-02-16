@@ -1,0 +1,110 @@
+body{
+  background-color: red;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width:851px){
+  body{
+    background: olive;
+    color: white;
+  }
+  p:after{
+    content: "";
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-image: url(../img/ig.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  nav ul li {
+    display: block;
+    background: red;
+    margin: 0.1rem;
+    float: left;
+    padding: 0.5rem;
+    width: 10rem;
+  }
+
+  nav ul li ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li:hover> ul {
+    display: block;
+    position: relative;
+    left: -0.6rem;
+  }
+
+  nav ul:hover li ul li{
+    float: none;
+  }
+  }
+
+@media screen and (max-width: 850px) and (min-width: 750px){
+  body{
+    background: yellow;
+  }
+
+  nav ul li {
+    display: block;
+    background: red;
+    margin: 0.1rem;
+    float: left;
+    padding: 0.5rem;
+  }
+
+  nav ul li:hover {
+    background-color: yellow;
+
+  }
+
+  h1{
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 749px){
+  body{
+    background: pink;
+  }
+
+  p:after{
+    content: "";
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-image: url(../img/ig.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  nav ul li {
+    display: block;
+    background: red;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    width: 10rem;
+    position: relative;
+  }
+
+  nav ul li ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+  }
+
+  nav ul li:hover> ul {
+    display: block;
+    position: relative;
+    left: -0.6rem;
+  }
+
+  nav ul:hover li ul li{
+    float: none;
+  }
+}
