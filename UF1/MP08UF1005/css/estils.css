@@ -1,0 +1,114 @@
+body {
+  margin:0;
+}
+
+article {
+  overflow: hidden;
+  float: left;
+}
+
+.vsco {
+  width: 50%;
+  background-color: beige;
+}
+
+.pixlr {
+  width: 50%;
+  background-color: lightslategray;
+}
+
+div{
+  width: 40%;
+  float: left;
+  margin: 4%;
+  padding: 1%;
+  border-radius: 50px;
+  text-align:center;
+  font-size: 1.7rem;
+  background-image: linear-gradient(mistyrose, antiquewhite, beige);
+  line-height: 2rem;
+  font-family: helvetica;
+}
+
+.funcionalitats{}
+.financament{}
+.companyia{}
+.alternatives{}
+.inconvenients{}
+.captura{
+  width:800px;
+  height:400px;
+  background-size: cover;
+  margin: 5em;
+}
+.valoracio{
+  width:1000px;
+  height:400px;
+}
+
+article:nth-child(odd) .captura{
+  background-image: url(https://famisafe.wondershare.com/images/article/2020/03/VSCO-1.jpg);
+}
+article:nth-child(even) .captura{
+  background-image: url(https://andro4all.com/hero/2019/10/Pixlr-Para-Android-review.jpg?width=1200&aspect_ratio=1200:631);
+}
+h2{
+  font-size: 3.5rem;
+  font-family: optima;
+  padding: 75px 0 0 170px;
+}
+h3{
+  padding: 0 0 0 170px;
+}
+h4{
+  padding: 10px 0 0 170px;
+}
+h5{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background-size: cover;
+}
+article:nth-child(odd) h5 {
+  background-image: url(https://play-lh.googleusercontent.com/VrSAPsppGQ82MFcP-aVIB38ZgT7XOFs9jZC7xGQPaDuCy637Tz4NCn4-NsKyKs_hfZQ=s360-rw);
+}
+article:nth-child(even) h5 {
+  background-image: url(https://play-lh.googleusercontent.com/a-Cm56JAmr8UC0MSub0e1GbA82AsAXuUqO_7z5V2mQg_DsQc3RKnUUyyAepLbfjmSw=s360-rw);
+}
+
+h6{
+  font-size: 1.9rem;
+  font-weight:bold;
+}
+
+p{
+  font-weight:lighter;
+}
+.plataformes{
+  width:50%;
+  overflow: hidden;
+  float: right;
+}
+li{
+  background-size: cover;
+}
+.mobiland{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 20px;
+  float: right;
+  list-style-type: none;
+  background-image: url(https://urbancomunicacion.com/wp-content/uploads/2018/02/%C2%BFQui%C3%A9n-dise%C3%B1%C3%B3-el-la-imagen-del-icono-de-Android-urbancomunicacion-estudio-barcelona.jpg);
+}
+
+.mobilios{
+  width: 100px;
+  height: 100px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/IOS-Emblem.jpg/1200px-IOS-Emblem.jpg);
+  margin: 40px;
+  float: right;
+  list-style-type: none;
+}

@@ -1,0 +1,53 @@
+div {
+  background-color: red;
+  height: 10em;
+  width: 10em;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.flotatE{
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/gat2.jpg);
+
+
+}
+
+.flotatR{
+  float: right;
+  margin: 0 0 1em 1em;
+  background-image: url(../img/gat.jpg);
+
+
+}
+.capitular{
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/j.jpg);
+  width: 2em;
+  height: 2em;
+}
+h2{
+  clear:both;
+}
+
+span{
+  color: red;
+  display: none;
+}
+
+.columna {
+  width: 40%;
+  margin: 0 5%;
+}
+
+.esquerra{
+  float: left;
+}
+
+.dreta{
+  float: right;
+}
