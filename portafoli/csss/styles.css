@@ -1,0 +1,62 @@
+body{
+
+}
+video{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -20;
+}
+.general{
+ width: inherit;
+ height: 75em;
+ margin: 0 auto;
+}
+.mp08{
+  float: left;
+  font-family: impact, sans-serif;
+  width: 30em;
+  height: 54em;
+  margin: -2rem;
+  text-align: center;
+}
+h1{
+  font-size: 30em;
+}
+.m{
+  animation-name: lletres;
+  animation-duration: 13s;
+  animation-delay: 8s;
+  opacity: 0%;
+}
+.p{
+  animation-name: lletres;
+  animation-duration: 13s;
+  animation-delay: 8.5s;
+  opacity: 0%;
+}
+.O{
+  animation-name: lletres;
+  animation-duration: 13s;
+  animation-delay: 9s;
+  opacity: 0%;
+}
+.v{
+  animation-name: lletres;
+  animation-duration: 13s;
+  animation-delay: 9.5s;
+  opacity: 0%;
+}
+
+@keyframes lletres{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}

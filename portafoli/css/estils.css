@@ -3,13 +3,41 @@
   body{
   background-image: url(../img/wall.jpg);
   }
-.titol{
-  background-image: url(../img/titol.jpg);
+
+  ul li{/*UF's*/
+  clear: both;
+  font-size: 10rem;
+  list-style-type: none;
 }
+ .gifs{
+   padding: 0rem;
+   margin: 0;
+ }
+ .gif1{
+  position: relative;
+  top: 5rem;
+  left: 82rem;
+  width: 13rem;
+  height: 20rem;
+  background-image: url(../img/laurel.gif);
+  background-repeat: no-repeat;
+  padding: 0rem;
+}
+.gif2{
+  position: relative;
+  top: -10rem;
+  left: 60rem;
+  width: 13rem;
+  height: 20rem;
+  background-image: url(../img/skadance.gif);
+  background-repeat: no-repeat;
+  padding: 0rem;
+}
+
+
   ul li ul a{/*rodones*/
   display: inline-block;
   position: relative;
-  top: 15rem;
   width: 16rem;
   height: 16rem;
   background-color: black;
@@ -19,34 +47,42 @@
   margin: 5rem;
   text-decoration: none;
   text-align: center;
-
   }
 
-body>ul{/*div que envolta les rodones*/
-  width: 120rem;
+  body ul li ul{/*div que envolta les rodones*/
+  position: relative;
+  width: 130rem;
   margin: 0 auto;
-}
+  height: 55rem;
+  top: 10rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5rem;
+  }
 
-ul li{/*UF's*/
+  ul li{/*UF's*/
+  position: relative;
+  top: 2rem;
   clear: both;
-  font-size: 2rem;
+  font-size: 5rem;
+  font-family: playfair display, sans-serif;
   list-style-type: none;
 }
 
-ul li ul a li{/*noms de les activitats*/
-  position: relative;
-  top: 10rem;
-  color: white;
 
-  }
+  ul li ul a li{/*noms de les activitats*/
+  position: relative;
+  font-size: 2rem;
+  top: 8rem;
+  color: orange;
+}
 
 .hover{/*general rodona SKA*/
   display: block;
   float: left;
   background: transparent;
-  width: 16.5rem;
-  height: 16.5rem;
-  border-radius: 8rem;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 9rem;
 
 }
 .hover:hover{
@@ -61,8 +97,8 @@ ul li ul a li{/*noms de les activitats*/
   border-radius: 7.5rem;
   line-height: 35rem;
   background-size: cover;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 .absolute{
@@ -73,8 +109,8 @@ ul li ul a li{/*noms de les activitats*/
   border-radius: 7.5rem;
   line-height: 35rem;
   background-size: cover;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 
 }
 
@@ -87,8 +123,8 @@ ul li ul a li{/*noms de les activitats*/
   background-size: cover;
   top: 0rem;
   float: left;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 .floatb{
@@ -101,8 +137,8 @@ ul li ul a li{/*noms de les activitats*/
   top: 0rem;
   margin: 0 auto;
   float: left;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 .escacs{
@@ -114,8 +150,8 @@ ul li ul a li{/*noms de les activitats*/
   background-size: cover;
   top: 0rem;
   float: left;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 .apps{
@@ -127,8 +163,8 @@ ul li ul a li{/*noms de les activitats*/
   background-size: cover;
   top: 0rem;
   float: left;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 .examen{
@@ -140,8 +176,8 @@ ul li ul a li{/*noms de les activitats*/
   background-size: cover;
   top: 0rem;
   float: left;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 .retrat{
@@ -153,12 +189,12 @@ ul li ul a li{/*noms de les activitats*/
   background-size: cover;
   top: 0rem;
   float: left;
-  top: 0.7rem;
-  left: 0.7rem;
+  top: 1rem;
+  left: 0.9rem;
 }
 
 /*-------UF4-------*/
-.responsiv
+.responsiv{
   background-image: url(../img/upsessions.jpeg);
   width: 15rem;
   height: 15rem;
