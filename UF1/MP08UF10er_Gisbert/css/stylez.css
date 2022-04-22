@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: ivory;
+}
+}
+
+.capcalera{
+  width: 589px;
+
+}
+.titol{
+  display: inline;
+  position: relative;
+  width: 4rem;
+  height: 2rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: right;
+  top: 2rem;
+  left: 25rem;
+}
+
+.cotxe{
+  position: relative;
+  width: 50rem;
+  height: 30rem;
+  background-image: url(../img/ani/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  animation: cotxe 30s ease infinite;
+  opacity: 0%
+}
+@keyframes cotxe{
+  10%{
+    opacity: 100%;
+    background-image: url(../img/ani/back.png);
+  }
+  20%{
+    opacity: 100%;
+    background-image: url(../img/ani/bean.png);
+  }
+  30%{
+    opacity: 100%;
+    background-image: url(../img/ani/break.png);
+  }
+  50%{
+    opacity: 100%;
+    background-image: url(../img/ani/bond.png);
+  }
+  70%{
+    opacity: 100%;
+    background-image: url(../img/ani/rider.png);
+  }
+  90%{
+    opacity: 100%;
+    background-image: url(../img/ani/taxi.png);
+  }
+  100%{
+  opacity: 100%;
+    background-image: url(../img/ani/team.png);
+
+  }
+}
+
+.central{
+  position: relative;
+  height: 850px;
+  width: 960px;
+
+  top: 80px;
+  margin: 0 auto;
+}
+
+.vinyeta{
+  display: inline-block;
+  float: left;
+  height: 250px;
+  width: 280px;
+  background-color: purple;
+  margin: 10px 30px 30px 10px;
+  animation: girar 2s ease;
+  opacity: 50%;
+}
+
+.vinyeta:hover{
+
+  opacity: 100%
+}
+#pulp{
+  background-image: url( ../img/small/small_pulp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#taxi{
+  background-image: url( ../img/small/small_taxi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#gold{
+  background-image: url( ../img/small/small_bond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#ghost{
+  background-image: url( ../img/small/small_ghost.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bean{
+  background-image: url( ../img/small/small_bean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#future{
+  background-image: url( ../img/small/small_back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#knight{
+  background-image: url( ../img/small/small_rider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#team{
+  background-image: url( ../img/small/small_team.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bad{
+  background-image: url( ../img/small/small_break.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.barra{
+  position: relative;
+  width: 280px;
+  height: 40px;
+  background-color: white;
+  top: 220px;
+  font-color: grey;
+}
+.final{
+  position: relative;
+  width: 960px;
+  height: 250px;
+  top:150px;
+  margin: 0 auto;
+}
+.logo{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url(../img/logo_carsandfilms.png);
+  top: 10px;
+}

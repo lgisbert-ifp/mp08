@@ -1,0 +1,22 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+video{
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+
+button{
+  width: 100%;
+  font-family: 'Modak', cursive;
+  height: 50px;
+  background-color: black;
+  z-index: 0;
+  font-size: 30pt;
+  color: white;
+  text-align: center;
+
+}
