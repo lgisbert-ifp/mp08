@@ -1,0 +1,367 @@
+body{
+  margin: 0;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: #666;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.pis{
+  background-color: #8e1e36;
+  color: #f9f6ea;
+  height: 35rem;
+  display: inline-block;
+  margin-top: -1rem;
+}
+
+.pis1{
+  background-color: #f9f6ea;
+  width: 100%;
+  color: #8e1e36;
+  height: 35rem;
+  display: inline-block;
+  margin-top: -2rem;
+}
+
+.centrador{
+  width: 65%;
+  height: 32.5rem;
+  overflow: hidden;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/*------TEXT----*/
+h1 {
+  font-family:'Libre Baskerville', cursive;
+  clear: both;
+  font-size: 2.3rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  clear: both;
+}
+
+#esq{
+  float: left;
+  text-align: justify;
+}
+
+#dre{
+  float: right;
+  text-align: right;
+}
+
+#mig{
+  padding: 0.5rem;
+  text-align: center;
+}
+
+ /*----BOLES-----*/
+
+.bola{
+  background-color: black;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2.5rem;
+  margin-top: 0rem;
+}
+
+/*-----IMATGES PIS----*/
+#mobil{
+  background-image: url(../img/mobil.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#menjar{
+  background-image: url(../img/menjar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+#mans{
+  background-image: url(../img/mans.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#funcio{
+  background-image: url(../img/funcio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#cartell{
+  background-image: url(../img/cartell.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#missatge{
+  background-image: url(../img/missatge.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+
+}
+/*-----BARRA-----*/
+.barra {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: #2A2A2A;
+}
+
+ul {
+  display: inline-block;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 2rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #f9f6ea;
+}
+
+li:hover {
+  color: #A9A596;
+}
+
+/*-----VINCLES---*/
+#menu {
+  height: 4rem;
+}
+
+/*------IMATGES----*/
+.imatges{
+  height: 35rem;
+  background-image: url(../img/);
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fotos 25s linear infinite;
+}
+
+/*------animació------*/
+@keyframes fotos{
+0%{background-image: url(../img/ambulancia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+20%{background-image: url(../img/violencia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+40%{background-image: url(../img/lladre.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+60%{background-image: url(../img/homeless.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+80%{background-image: url(../img/animal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+100%{background-image: url(../img/bomber.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  }
+}
+
+.logo{
+position: absolute;
+width: 10rem;
+height: 10rem;
+background: url(../img/logo.png) beige;
+background-size: 70%;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 25px;
+margin: 3rem 3rem;
+top: 18rem;
+}
+
+.titol{
+position: absolute;
+text-align: left;
+height: 4rem;
+font-size: 3rem;
+font-family: 'Libre Baskerville', bold;
+top: 27rem;
+left: 14rem;
+color: beige;
+}
+
+/*-----DESCARREGAR----*/
+.descarrega{
+  height: 35rem;
+  width: 100%;
+  display: inline-block;
+  margin-top: -2rem;
+  background-color: #f9f6ea;
+  color: #8e1e36;
+
+}
+.apps{
+  width: 60rem;
+  height: 15rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.insta{
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-image: url(../img/insta.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+.insta:hover{
+  opacity: 50%;
+}
+
+.facebook{
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../img/facebook.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+  border-radius: 50%;
+}
+.facebook:hover{
+   opacity: 50%;
+ }
+.google{
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../img/google.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+  border-radius: 50%;
+}
+
+.google:hover{
+  opacity: 50%;
+}
+
+.store{
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../img/store.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+}
+
+.store:hover{
+  opacity: 50%;
+}
+/*-----CREDITS-----*/
+#credits {
+  height: 20rem;
+  background-color: white;
+}
+
+.logoc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 5rem;
+  height: 5rem;
+  background-image: url(../img/logo.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cre1{
+  float: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.cre2{
+  float: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.contingut{
+  width: 50rem;
+  height: 4rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+h5{
+  float: left;
+  margin: 2rem;
+}
+
+h5:hover{
+  text-decoration: underline;
+}
+
+.alguero{
+  width: 4rem;
+  height: 6rem;
+  background-image: url(../img/anto.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 50rem;
+  margin-top: -4rem;
+}
+
+.mschools{
+  width: 12rem;
+  height: 4rem;
+  background-image: url(../img/mschool.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 55rem;
+  margin-top: -5rem;
+}
+
+/*-----BOTÓ DE TORNADA----
+.torna{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50px;
+  font-size: 80px;
+  text-align: center;
+  line-height: 120px;
+  box-shadow: black 10px 10px 10px;
+*/
+}
